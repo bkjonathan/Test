@@ -1,6 +1,4 @@
 <?php
-//this is testing for branch
-//this is testing for branch
 require_once 'autoload.php';
 $db = new DB();
 $tips=$db->getRows('main',['order_by'=>'id DESC','where'=>['status'=>1]]);
